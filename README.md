@@ -1,4 +1,4 @@
-A sample application that shows integration with the Bime API. 
+A sample application that shows integration with the Bime API. Built with Java [PlayFramework](http://www.playframework.com/)
 
 It is not by any mean a best practice guide or production code quality. It's intend is purely to demo how the API can be used to integrate and drive Bime's dashboards from a third party application.
 
