@@ -9,13 +9,13 @@ import org.scribe.utils.Preconditions;
 
 public class BimeApi extends DefaultApi20 {
 
-    //Replace matthieu by your account name
-    private static final String AUTHORIZATION_URL = "https://matthieu.bimeapp.com/oauth/authorize?response_type=code&client_id=%s&redirect_uri=%s";
+    //Replace apidemo by your account name
+    private static final String AUTHORIZATION_URL = "https://apidemo.bimeapp.com/oauth/authorize?response_type=code&client_id=%s&redirect_uri=%s";
 
     @Override
     public String getAccessTokenEndpoint() {
-        //Replace matthieu by your account name
-        return "https://matthieu.bimeapp.com/oauth/token?grant_type=authorization_code";
+        //Replace apidemo by your account name
+        return "https://apidemo.bimeapp.com/oauth/token?grant_type=authorization_code";
     }
 
     @Override

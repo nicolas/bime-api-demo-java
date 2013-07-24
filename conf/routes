@@ -3,9 +3,8 @@
 # ~~~~
 
 # Home page
-GET     /               controllers.Bime.index()
-GET     /connect        controllers.Bime.connect()
-GET     /callback       controllers.Bime.callback()
-GET     /actions        controllers.Bime.actions()
-GET     /dashboards     controllers.Bime.dashboards()
-GET     /connections    controllers.Bime.connections()
+GET        /                       controllers.Bime.actions()
+GET        /dashboards             controllers.Bime.dashboards()
+GET        /connections            controllers.Bime.connections()
+GET        /connections/:id        controllers.Bime.connection(id: Int)
+GET        /workflow               controllers.Bime.workflow()

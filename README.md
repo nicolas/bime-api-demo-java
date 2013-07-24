@@ -9,4 +9,8 @@ The two important classes are :
 * app/api/BimeApi which extends DefaultApi20 and where you have to replace matthieu by your own account name
 * app/controllers/Bime which shows the flow (starting with connect) and where you have to replace the keys by yours
 
+See /workflow to have see all the needed steps to create a named user group and named user, then associate it data security rules and finaly authorize the created group the see your dashboard.
+
 For more information on possible actions see [the documentation](https://github.com/nicolas/bime-api).
+
+If you have any question contact <wecare@bimeanalytics.com>
